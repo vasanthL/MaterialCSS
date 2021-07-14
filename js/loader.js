@@ -6,6 +6,12 @@ $(document).ready(function(){
         fullWidth: true,
         indicators: true
       });
+      $('.parallax').parallax()
+      $('.myreviews').carousel({
+          numVisible: 7,
+          shift: 55,
+          padding: 55
+      })
 })
 
 function toggleModal(){
