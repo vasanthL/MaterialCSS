@@ -11,20 +11,172 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&display=swap" rel="stylesheet">
     
+    
+    
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    
-    <!-- Cutom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
     
+    <!-- Navbar section -->
+    <section class="fnavbar">
+        <nav class="nav-fixed">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">Coffee King</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#" onclick="toggleModal();">Home</a></li>
+                <li><a href="#" onclick="toggleModal();">About Us</a></li>
+                <li><a href="#"onclick="toggleModal();">Coffee</a></li>
+                <li><a href="#" onclick="toggleModal();">Surprise</a></li>
+                <li><a href="#" onclick="toggleModal();">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="#" onclick="toggleModal();">Home</a></li>
+            <li><a href="#" onclick="toggleModal();">About Us</a></li>
+            <li><a href="#"onclick="toggleModal();">Coffee</a></li>
+            <li><a href="#" onclick="toggleModal();">Surprise</a></li>
+            <li><a href="#" onclick="toggleModal();">Contact</a></li>
+          </ul>
+    </section>
 
+    <!-- Slider Section -->
+    <section class="fslider">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="images/banner1.jpg" alt="image one">
+                    <div class="caption center-align text-white">
+                        <h3>CafeKing - Quality cafe</h3>
+                        <h5 class="light text-lighten-3">
+                            We serve one the best coffee around
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/banner2.jpg" alt="image two">
+                    <div class="caption center-align text-white">
+                        <h3>CafeKing - finest cafe</h3>
+                        <h5 class="light text-lighten-3">
+                            We serve one the best coffee around
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/banner1.jpg" alt="image three">
+                    <div class="caption center-align text-white">
+                        <h3>CafeKing - super cafe</h3>
+                        <h5 class="light text-lighten-3">
+                            We serve one the best coffee around
+                        </h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
 
+    <!-- Description section -->
+    <section class="descrip">
+        <div class="section white center">
+            <h2 class="header">CafeKing - Ultimate quality coffee</h2>
+            <div class="row container center">
+                <div class="col center l8 s12 move">Lorem, ipsu it id quisquam nobis obcaecati numquam ut odit at vero laborum maiores labore saepe nihil animi soluta, perspiciatis consequuntur voluptatum! Magnam earum totam delectus optio. Voluptatum quae expedita voluptates quis laboriosam, exercitationem ratione similique omnis, minima, recusandae harum suscipit quisquam dicta. Maiores, praesentium laborum esse modi eligendi asperiores saepe inventore beatae architecto! Repellat libero, atque adipisci architecto eligendi quo vitae, unde iure fuga dolorem dicta tempore sed sint ratione exercitationem distinctio temporibus. In.</div>
+                <div class="col center l4 s12">
+                    <img src="images/coffee.png" style="object-fit: contain;" height="200" width="auto"  alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Card Section -->
+    <section class="fcards">
+        <div class="row" style="padding-left: 50px; padding-right: 50px;">
+            <div class="col s12 m12 l4" style="padding: 50px 5px;">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="images/item1.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Coffee Uno<i class="material-icons right">more_vert</i></span>
+                      
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                  </div>                
+            </div>
+            <div class="col s12 m12 l4" style="padding: 50px 5px;">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="images/item2.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Coffee Dueo<i class="material-icons right">more_vert</i></span>
+                      
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                  </div>                
+            </div>
+            <div class="col s12 m12 l4" style="padding: 50px 5px;">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="images/item3.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Coffee Trio<i class="material-icons right">more_vert</i></span>
+                      
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                  </div>                
+            </div>
+        </div>
+    </section>
 
+    <!-- Parallax section -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="images/caro2.jpg" alt="">
+        </div>
+    </div>
 
-    
+    <!-- About Section -->
+    <section class="fbout">
+        <div class="section white center">
+            <div class="row container">
+                <h2 class="header">About Us</h2>
+                <p class="grey-text text-darken-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit obcaecati repellat. Eius animi nobis tempora quia quod nemo ipsa nihil blanditiis sint maiores quis illum, dolorum recusandae at illo omnis adipisci explicabo fugit sunt similique? Nam debitis ipsa voluptates vitae? Accusantium voluptatibus eaque eum nulla, porro quaerat tempore, recusandae exercitationem corrupti tempora, placeat repellendus deserunt similique? Distinctio, mollitia? Eius optio beatae in debitis aliquam ex, odit quibusdam consectetur suscipit? Explicabo, blanditiis eveniet nobis ullam rem a aliquam impedit itaque cupiditate? Aliquid, sint maxime! Saepe laboriosam, ipsum non doloremque recusandae est nulla facilis vero, eveniet vel unde fuga, tempora distinctio.
+                </p>
+                <a href="#"
+                style="background-color: #6f4037; !important"
+                class="btn waves-effect waves-light">Read more</a>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Section -->
+    <section class="infomodal">
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <h4 id="info-modal-heading">Link Disabled</h4>
+                <p id="info-modal-content">Sorry! all links are disabled as of now</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="modal-close wave-effect btn-flat">Close</a>
+            </div>
+        </div>
+    </section>
+
 </body>
     <!-- JQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -36,6 +188,9 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
        
+    <!-- Cutom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
     <!-- Custom JS -->
     <script src="js/loader.js"></script>
 </html>
